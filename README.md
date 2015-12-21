@@ -1,8 +1,6 @@
 # postgresql 9.4 script for Centos 7x64
 
-# postgresql 9.4 script for centos 6.x64
-
-For use on a clean CentOS 6.x64 box only.
+For use on a clean CentOS 7.x64 box only.
 
 This script installs:
 
