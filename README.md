@@ -54,6 +54,7 @@ The script also creates the following:
 
 - Once completed, it will display the new passwords for pgadmin, root, postgres, and ssl as well as write them to an auth.txt file.  It will also restart SSHD, so be sure to copy new password!
 
+Example:
 
 Passwords saved in /root/auth.txt
 
