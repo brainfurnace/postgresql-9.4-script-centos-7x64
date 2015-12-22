@@ -56,7 +56,11 @@ The script also creates the following:
 
 
 Passwords saved in /root/auth.txt
+
 pg pass: DqVnavTlCXcSKfgprgUtjF-20rpfsKui
+
 ssl pass: yxaQJCXgueTw19XEOMPdZzNd5n6rwVOG
+
 pgadmin pass: A0RUHtEfSFC82mHeDP_ixrRavk7itgkE
+
 root pass: RvZEHkZv-AeQS-ce0Mcnif7GxmmJ-zxN
