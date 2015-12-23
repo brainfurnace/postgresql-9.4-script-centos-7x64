@@ -36,9 +36,11 @@ This script installs:
 
 The script also creates the following:
 
-- A minimally privilaged user (pgadmin)
+- A minimally privilaged user (pgadmin - change to whatever you like)
 
 - Disables root log in
+
+- Resets the root password to a 32 character string
 
 - Sets IP tables
 
@@ -54,10 +56,10 @@ The script also creates the following:
 
 - Once completed, it will display the new passwords for pgadmin, root, postgres, and ssl as well as write them to an auth.txt file.  It will also restart SSHD, so be sure to copy new password!
 
--This script uses IP Tables and not firewalld. Comment out 
+-This script uses IP Tables and not firewalld. If you want to set up firewalld, comment out the iptable lines as noted.
 
 
-Example:
+Example Output at end of script:
 
 Passwords saved in /root/auth.txt
 
