@@ -224,11 +224,31 @@ function secure_ssh(){
 	systemctl restart sshd
 }
 
+
+function kill_firewalld(){
+	systemctl stop firewalld
+       systemctl mask firewalld
+}
+
+function use_iptables(){
+       yum -y install iptables
+       yum -y install iptables-services
+       systemctl enable iptables
+       service iptables save
+       systemctl restart iptables
+}
+
+
+#You can comment out webmin if you dont want it
 install_postgresql;
 install_webmin;
 secure_iptables;
 secure_ssh;
+#Comment out following two lines if you will be setting up firewalld
+kill_firewalld;
+use_iptables;
 
+#throw in pgbouncer but dont start it
 yum -y install pgbouncer
 
 #change root password
