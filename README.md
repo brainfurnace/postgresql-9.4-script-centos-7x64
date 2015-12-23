@@ -54,6 +54,9 @@ The script also creates the following:
 
 - Once completed, it will display the new passwords for pgadmin, root, postgres, and ssl as well as write them to an auth.txt file.  It will also restart SSHD, so be sure to copy new password!
 
+-This script does NOT install IP tables. For IP Tables, please use the CentOS 6 script  (https://github.com/brainfurnace/postgresql-9.4-script-centos-6x64) or install your own FirewallD or IPTables. 
+
+
 Example:
 
 Passwords saved in /root/auth.txt
