@@ -60,7 +60,7 @@ The script also creates the following:
 
 Usage: 
 
-1. Download the script to a clean CentOS 7.x64 box or use wget <code>wget https://github.com/brainfurnace/postgresql-9.4-script-centos-7x64/blob/master/pgsql-9.4-centos-7x-64.sh</code>
+1. Download the script to a clean CentOS 7.x64 box or use wget <code>wget https://github.com/DavidGhedini/postgresql-9.4-script-centos-7x64/blob/master/pgsql-9.4-centos-7x-64.sh</code>
 2. Make it executable <code> chmod 755 pgsql-9.4-centos-7x-64.sh</code>
 3. Execute it <code>./pgsql-9.4-centos-7x-64.sh</code>
 
